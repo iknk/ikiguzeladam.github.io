@@ -1,0 +1,136 @@
+﻿<!DOCTYPE HTML>
+<!--
+	Ahmet KAŞİF 2015
+	Template from HTML5 UP - Prologue	
+-->
+<html>
+	<head>
+		<title>Blog of akasif</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.scrolly.min.js"></script>
+		<script src="js/jquery.scrollzer.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-wide.css" />
+		</noscript>
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<div id="header" class="skel-layers-fixed">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+							<h1 id="title">Ahmet KASIF</h1>
+							<p>Computer Eng. Student</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<!--
+							
+								Prologue's nav expects links in one of two formats:
+								
+								1. Hash link (scrolls to a different section within the page)
+								
+								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
+
+								2. Standard link (sends the user to another page/site)
+
+								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+							
+							-->
+							<ul>
+								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
+								<li><a href="#article" id="article-link" class="skel-layers-ignoreHref"><span class="icon fa-pencil">Articles</span></a></li>
+                                <li><a href="../index.html"><span class="icon fa-circle">Go Back</span></a></li>
+							</ul>
+						</nav>
+						
+				</div>
+				
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+                            <li><a href="https://twitter.com/ehmedksf" class="icon fa-twitter-square"><span class="label">not upt</span></a></li>
+                            <li><a href="https://www.youtube.com/channel/UCKfug_I5DPfUXQ12Denpb9w" class="icon fa-youtube-square"><span class="label">not upt</span></a></li>
+                            <li><a href="https://github.com/ahmetkasif/" class="icon fa-github-square"><span class="label">not upt</span></a></li>
+                            <li><a href="http://steamcommunity.com/profiles/76561198095914860/" class="icon fa-steam-square"><span class="label">not upt</span></a></li>
+						</ul>
+				
+				</div>
+			
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+							<header>
+								<p class="alt">Welcome to my blog</p>
+							</header>
+
+						</div>
+					</section>
+
+                <!-- Makaleler -->
+                <section id="makale" class="three">
+                    <div class="container">
+
+                    <h3>How to connect Java Project to a Database</h3>
+                        <p>Coming soon.</p>
+
+                    <h3>How to add lwjgl libraries in to a Java Project</h3>
+                        <p>
+                            Tools to download;<br />
+                            &nbsp;&bull;&nbsp;<a href="https://sourceforge.net/projects/java-game-lib/files/Official%20Releases/LWJGL%202.9.3/">LWJGL 2</a><br />
+                        </p>
+                        <p>
+                            How to setup the library;<br />
+                            First you should know that this process has to be done everytime you create a new project, until you assign it default.
+                            Setting it default would be less beneficial, because when we dont need it, we still had to use it. So, lets start:<br />
+                            &nbsp;&bull;&nbsp; Setup a project<br />
+                            &nbsp;&bull;&nbsp; Create a lib folder and inside lib folder create 2 folders named jar, natives.<br />
+                            &nbsp;&bull;&nbsp; Extract the jar files you had downloaded to the lib/jar folder.<br />
+                            &nbsp;&bull;&nbsp; Extract the native files you had downloaded to the lib/natives folder with related os.<br />
+                            &nbsp;&bull;&nbsp; Now open your project, go properties, find Java build path, and add external jar.Choose the jar files 
+                            that you previously located in lib/jar.<br />
+                            &nbsp;&bull;&nbsp; After you are done about it, go click lwjgl.jar and choose add natives. Search for your natives that
+                            you previously located in lib/natives and add them as natives.<br />
+                            &nbsp;&bull;&nbsp;You are ready to go!<br />
+                        </p>
+
+                    </div>
+                </section>
+			
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+				
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>Ahmet KASIF 2015</li>
+					</ul>
+				
+			</div>
+
+	</body>
+</html>
